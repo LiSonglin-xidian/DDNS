@@ -193,6 +193,7 @@ python run.py -c /path/to/config.json
 - [推荐]以系统身份运行,右键"以管理员身份运行"`task.bat`(或者在管理员命令行中运行)
 - 以当前用户身份运行定时任务,双击或者运行`task.bat` (执行时会闪黑框)
 - 管理员身份运行create-task.bat创建定时任务（每五分钟查看一次ip）
+- 管理员身份运行create-task-clean-dns.bat创建定时任务（每三小时清理一次dns缓存，避免IP更新后还是用旧的IP地址）
 
 #### Linux
 
